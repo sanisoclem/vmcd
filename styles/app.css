@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-base {
+  @apply relative flex justify-center rounded-sm border border-transparent bg-cyan-600 text-white ease-in-out hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2;
+}
+
+.btn {
+  @apply btn-base;
+  @apply py-2 px-4 text-sm font-medium;
+}
+
+.btn-sm {
+  @apply btn-base;
+  @apply p-1 text-xs font-light;
+}
+
+.btn:disabled {
+  pointer-events: none;
+}

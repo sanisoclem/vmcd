@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+/build
+/package
+.env
+.env.*
+!.env.example
+/public
+/functions
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+old
+/server.js
+/remix.config.js
+/remix.config.js
